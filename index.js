@@ -56,3 +56,5 @@ function multi(obj) {
 multi(nums);
 
 console.log(nums);
+
+
