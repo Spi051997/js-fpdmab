@@ -5,9 +5,17 @@ import './style.css';
 const property = 'Fistname';
 const valuee = 'Shubham';
 const user = {
-  [property]: valuee,
+  name: 'Shubham',
+  age: 10,
+  location: 'Pune',
 };
 
 // delete user['name of book '];
 
 console.log(user);
+
+// Print  key with loop
+
+for (let i in user) {
+  console.log(user[i]);
+}
